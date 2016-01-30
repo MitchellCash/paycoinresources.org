@@ -1,0 +1,55 @@
+
+.content {
+    background-color: #fff;
+    border: 2px solid #ebebeb;
+    border-radius: 6px;
+    margin: 0 5px;
+    min-height: 400px;
+    padding: 30px 40px 40px;
+    position: relative;
+    text-align: justify;
+}
+
+
+.resources {
+    text-align: left;
+}
+
+
+.resources > div:first-child {
+    border-top: 0 none;
+}
+
+
+
+.resources > div > div:first-child {
+    border-right: 1px solid #e0e0e0;
+    padding-right: 40px;
+}
+.resources div div {
+    display: inline-block;
+    min-height: 200px;
+    vertical-align: top;
+    width: 367px;
+}
+
+
+
+.resources p {
+    margin: 6px 0;
+}
+.content p, .content li, .content table {
+    line-height: 1.5em;
+}
+
+
+
+.resources > div > div:first-child + div {
+
+    margin-left: -1px;
+    padding-left: 40px;
+}
+
+.resources > div {
+    border-top: 1px solid #e0e0e0;
+}
