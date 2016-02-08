@@ -101,9 +101,20 @@
         <h3>What is proof-of-stake?</h3>
         <p>Proof-of-stake is the method by which the Paycoin blockchain network aims to achieve distributed consensus and mint new coin. Users prove ownership of an amount of their Paycoin (their "stake" in the system) and in return receive a reward or mint based on an annual percentage of the stake amount.</p>
         <p>Paycoin's proof-of-stake system combines randomization with the concept of "coin age," a probability factor derived from the product of the amount of coins (Coin Weight) times the number of days the coins have been held (Coin Age).</p>
-
     </main>
-    <script src=scripts/main.js></script>
-</body>
 
+    <!-- build:js(app/) ../../scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-73552000-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</body>
 </html>
